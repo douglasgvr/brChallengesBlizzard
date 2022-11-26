@@ -1,3 +1,11 @@
+.menu {
+  border: 1px solid transparent;
+}
+
+.menu:hover {
+  border-bottom: 2px solid #00aeff;
+}
+
 .menu-container {
   width: 1200px;
   margin: 0 auto;
@@ -12,15 +20,38 @@
   align-items: center;
 }
 
+.menu-logo-img {
+  margin: 28px 0;
+}
+
 .menu-lista {
+  margin-left: 112.3px;
   display: flex;
+  gap: 34px;
 }
 
 .menu-lista li {
   list-style: none;
+  display: flex;
+  gap: 14px;
 }
 
 .menu-lista li a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.menu-lista li a:hover {
+  color: #00aeff;
+}
+
+.menu-btn-login {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu-btn-login button {
+  width: 112px;
+  height: 41px;
 }
