@@ -2,12 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./public/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <title>Blizzard</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <main class="hero">
+      <header class="menu">
+        <div class="menu-container">
+          <div class="menu-logo-lista">
+            <img
+              src="./public/assets/logo-blizzard.png"
+              alt="logo da logo-blizzard"
+            />
+            <ul class="menu-lista">
+              <li>
+                <a href="#">Jogos</a>
+                <img src="./public/assets/Vector 5.svg" alt="vector" />
+              </li>
+              <li>
+                <a href="#">Esportes</a>
+                <img src="./public/assets/Vector 5.svg" alt="vector" />
+              </li>
+              <li>
+                <a href="#">Loja</a>
+              </li>
+              <li>
+                <a href="#">Notícias</a>
+              </li>
+              <li>
+                <a href="#">Suporte</a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-btn-login">
+            <button class="btn-create-login">
+              <a href="#">Criar conta</a>
+            </button>
+            <button class="btn-login">
+              <img src="./public/assets/icone-login.png" alt="" />
+              <a href="#">Logar</a>
+            </button>
+          </div>
+        </div>
+      </header>
+    </main>
   </body>
 </html>

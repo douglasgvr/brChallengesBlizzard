@@ -1,0 +1,15 @@
+@import "./header.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  background: url("../.././public/assets/img-hero/hero_1.png") no-repeat;
+  background-size: cover;
+}
