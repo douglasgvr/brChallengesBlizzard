@@ -10,6 +10,13 @@ img {
 }
 
 .hero {
-  background: url("../.././public/assets/img-hero/hero_1.png") no-repeat;
+  background-image: url("../.././public/assets/img-hero/hero_1.png");
+  background-repeat: no-repeat;
   background-size: cover;
+
+  mix-blend-mode: multiply;
+}
+
+.hero-conteudo {
+  height: 736px;
 }

@@ -1,9 +1,9 @@
 .menu {
-  border: 1px solid transparent;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
 }
 
 .menu:hover {
-  border-bottom: 2px solid #00aeff;
+  border-bottom: 1.5px solid rgba(0, 174, 255);
 }
 
 .menu-container {
@@ -38,6 +38,12 @@
 
 .menu-lista li a {
   text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
   color: #ffffff;
 }
 
@@ -54,4 +60,54 @@
 .menu-btn-login button {
   width: 112px;
   height: 41px;
+}
+
+.menu-btn-login a {
+  text-decoration: none;
+}
+
+.btn-create-login {
+  background: transparent;
+  border: 0.788462px solid #ffffff;
+  border-radius: 3.15385px;
+}
+
+.btn-create-login:hover {
+  background: #00aeff;
+}
+
+.menu-btn-login a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.btn-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.31px;
+
+  background: #00aeff;
+  border-radius: 3.15385px;
+
+  border: 0.788462px solid transparent;
+}
+
+.btn-login a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+
+  text-align: center;
+
+  color: #ffffff;
 }
